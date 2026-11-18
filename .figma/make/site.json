@@ -1,0 +1,10 @@
+{
+  "description": "Explore Cheikh Art’s African contemporary fashion collections, craftsmanship, and bespoke design services, and connect with the creator to plan a custom piece.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

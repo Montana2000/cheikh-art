@@ -313,7 +313,9 @@ export default function App() {
         </nav>
         <div className="mobile-menu-footer">
           <div className="mobile-menu-phones">
-            <a href="tel:+221787372152">🇸🇳 +221 78 737 21 52</a>
+            <a href="https://wa.me/221787372152" target="_blank" rel="noopener noreferrer">
+              🇸🇳 +221 78 737 21 52 (WhatsApp)
+            </a>
             <a href="tel:+212681108027">🇲🇦 +212 681 108 027</a>
           </div>
           <div className="mobile-menu-socials">
@@ -738,8 +740,14 @@ export default function App() {
             <div>
               <small>Téléphone & WhatsApp</small>
               <span>
-                <a href="tel:+221787372152" style={{ color: "inherit", textDecoration: "none" }}>
-                  +221 78 737 21 52
+                <a
+                  href="https://wa.me/221787372152"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "inherit", textDecoration: "none" }}
+                  title="Contacter sur WhatsApp"
+                >
+                  +221 78 737 21 52 (WhatsApp)
                 </a>
                 <br />
                 <a href="tel:+212681108027" style={{ color: "inherit", textDecoration: "none" }}>
@@ -811,9 +819,16 @@ export default function App() {
             <div className="footer-block">
               <span className="footer-heading">Coordonnées & Téléphone</span>
               <div className="footer-contact-links">
-                <a href="tel:+221787372152" className="footer-link-item">
+                <a
+                  href="https://wa.me/221787372152"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-link-item"
+                  title="Ouvrir la conversation WhatsApp"
+                >
                   <span className="country-badge">SN</span>
                   <span>+221 78 737 21 52</span>
+                  <span className="wa-tag">WhatsApp ↗</span>
                 </a>
                 <a href="tel:+212681108027" className="footer-link-item">
                   <span className="country-badge">MA</span>

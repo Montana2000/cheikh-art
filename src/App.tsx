@@ -64,7 +64,6 @@ import g_11cfd9cd from "./assets/11cfd9cd-dc8e-4abb-af12-fc73e20c9414.jpg";
 import g_12b9a6b2 from "./assets/12b9a6b2-0fef-4900-a236-dd521dc1801d.jpg";
 import g_2693e0f1 from "./assets/2693e0f1-4e27-4425-94b1-648121713897.jpg";
 import g_330a7d8c from "./assets/330a7d8c-610e-4100-a314-f4d862f35195.jpg";
-import g_3bdafd4a from "./assets/3bdafd4a-57a7-4227-b8b5-038ba5d0e3d0.jpg";
 import g_4369b571 from "./assets/4369b571-a4b2-4190-8c2e-6864667e94b4.jpg";
 import g_5ee875b2 from "./assets/5ee875b2-8b84-464f-925b-b79f37fc5654.jpg";
 import g_94d1de5e from "./assets/94d1de5e-cd6e-4e8e-b26b-b4af86dd400a.jpg";
@@ -187,17 +186,16 @@ const galleryItems: GalleryItem[] = [
   { id: "g46", image: g_12b9a6b2, title: "DOLI — 03",     category: "DOLI" },
   { id: "g47", image: g_2693e0f1, title: "DOLI — 04",     category: "DOLI" },
   { id: "g48", image: g_330a7d8c, title: "DOLI — 05",     category: "DOLI" },
-  { id: "g49", image: g_3bdafd4a, title: "DOLI — 06",     category: "DOLI" },
-  { id: "g50", image: g_4369b571, title: "DOLI — 07",     category: "DOLI" },
-  { id: "g51", image: g_5ee875b2, title: "DOLI — 08",     category: "DOLI" },
-  { id: "g52", image: g_94d1de5e, title: "DOLI — 09",     category: "DOLI" },
-  { id: "g53", image: g_99fa3272, title: "DOLI — 10",     category: "DOLI" },
-  { id: "g54", image: g_aca59e7e, title: "DOLI — 11",     category: "DOLI" },
-  { id: "g55", image: g_c025a280, title: "DOLI — 12",     category: "DOLI" },
-  { id: "g56", image: g_e64786d5, title: "DOLI — 13",     category: "DOLI" },
-  { id: "g57", image: g_wa_011038, title: "DOLI — 14",    category: "DOLI" },
-  { id: "g58", image: g_wa_011048, title: "DOLI — 15",    category: "DOLI" },
-  { id: "g59", image: g_wa_011051, title: "DOLI — 16",    category: "DOLI" },
+  { id: "g49", image: g_4369b571, title: "DOLI — 06",     category: "DOLI" },
+  { id: "g50", image: g_5ee875b2, title: "DOLI — 07",     category: "DOLI" },
+  { id: "g51", image: g_94d1de5e, title: "DOLI — 08",     category: "DOLI" },
+  { id: "g52", image: g_99fa3272, title: "DOLI — 09",     category: "DOLI" },
+  { id: "g53", image: g_aca59e7e, title: "DOLI — 10",     category: "DOLI" },
+  { id: "g54", image: g_c025a280, title: "DOLI — 11",     category: "DOLI" },
+  { id: "g55", image: g_e64786d5, title: "DOLI — 12",     category: "DOLI" },
+  { id: "g56", image: g_wa_011038, title: "DOLI — 13",    category: "DOLI" },
+  { id: "g57", image: g_wa_011048, title: "DOLI — 14",    category: "DOLI" },
+  { id: "g58", image: g_wa_011051, title: "DOLI — 15",    category: "DOLI" },
 ];
 
 function Arrow({ diagonal = false }: { diagonal?: boolean }) {
@@ -445,9 +443,6 @@ export default function App() {
               <p>
                 Chaque silhouette naît d'une recherche de justesse : respecter la matière, honorer
                 le geste et laisser à celle ou celui qui la porte l'espace d'exister pleinement.
-              </p>
-              <p className="placeholder">
-                Biographie détaillée à compléter avec le parcours authentique du créateur.
               </p>
             </div>
             <div className="signature">Cheikh Art</div>

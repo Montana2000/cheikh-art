@@ -58,6 +58,24 @@ import g_e874bb70 from "./assets/e874bb70-ba58-4ab9-96cf-409f90263677.jpg";
 import g_f1715ab9 from "./assets/f1715ab9-605c-4aa1-b49c-74750f6eb0e8.jpg";
 import g_fa9981e3 from "./assets/fa9981e3-e20c-46ed-b584-3c166bf18c8c.jpg";
 
+// Galerie DOLI
+import g_0aac2970 from "./assets/0aac2970-74c3-4315-ac6d-279ae3403a19.jpg";
+import g_11cfd9cd from "./assets/11cfd9cd-dc8e-4abb-af12-fc73e20c9414.jpg";
+import g_12b9a6b2 from "./assets/12b9a6b2-0fef-4900-a236-dd521dc1801d.jpg";
+import g_2693e0f1 from "./assets/2693e0f1-4e27-4425-94b1-648121713897.jpg";
+import g_330a7d8c from "./assets/330a7d8c-610e-4100-a314-f4d862f35195.jpg";
+import g_3bdafd4a from "./assets/3bdafd4a-57a7-4227-b8b5-038ba5d0e3d0.jpg";
+import g_4369b571 from "./assets/4369b571-a4b2-4190-8c2e-6864667e94b4.jpg";
+import g_5ee875b2 from "./assets/5ee875b2-8b84-464f-925b-b79f37fc5654.jpg";
+import g_94d1de5e from "./assets/94d1de5e-cd6e-4e8e-b26b-b4af86dd400a.jpg";
+import g_99fa3272 from "./assets/99fa3272-2f9a-4e3d-9767-0c2144c4a9d7.jpg";
+import g_aca59e7e from "./assets/aca59e7e-1934-4b31-a814-6abee00a4cae.jpg";
+import g_c025a280 from "./assets/c025a280-f0f4-4953-86f0-52b9bac185fa.jpg";
+import g_e64786d5 from "./assets/e64786d5-b5eb-4fc7-a085-49e280825d4f.jpg";
+import g_wa_011038 from "./assets/wa_20261122_011038.jpeg";
+import g_wa_011048 from "./assets/wa_20261122_011048.jpeg";
+import g_wa_011051 from "./assets/wa_20261122_011051.jpeg";
+
 type Look = { title: string; category: string; image: string; number: string; detail: string };
 
 const looks: Look[] = [
@@ -164,6 +182,22 @@ const galleryItems: GalleryItem[] = [
   { id: "g41", image: g_e874bb70, title: "Série I — 41",  category: "Galerie" },
   { id: "g42", image: g_f1715ab9, title: "Série I — 42",  category: "Galerie" },
   { id: "g43", image: g_fa9981e3, title: "Série I — 43",  category: "Galerie" },
+  { id: "g44", image: g_0aac2970, title: "DOLI — 01",     category: "DOLI" },
+  { id: "g45", image: g_11cfd9cd, title: "DOLI — 02",     category: "DOLI" },
+  { id: "g46", image: g_12b9a6b2, title: "DOLI — 03",     category: "DOLI" },
+  { id: "g47", image: g_2693e0f1, title: "DOLI — 04",     category: "DOLI" },
+  { id: "g48", image: g_330a7d8c, title: "DOLI — 05",     category: "DOLI" },
+  { id: "g49", image: g_3bdafd4a, title: "DOLI — 06",     category: "DOLI" },
+  { id: "g50", image: g_4369b571, title: "DOLI — 07",     category: "DOLI" },
+  { id: "g51", image: g_5ee875b2, title: "DOLI — 08",     category: "DOLI" },
+  { id: "g52", image: g_94d1de5e, title: "DOLI — 09",     category: "DOLI" },
+  { id: "g53", image: g_99fa3272, title: "DOLI — 10",     category: "DOLI" },
+  { id: "g54", image: g_aca59e7e, title: "DOLI — 11",     category: "DOLI" },
+  { id: "g55", image: g_c025a280, title: "DOLI — 12",     category: "DOLI" },
+  { id: "g56", image: g_e64786d5, title: "DOLI — 13",     category: "DOLI" },
+  { id: "g57", image: g_wa_011038, title: "DOLI — 14",    category: "DOLI" },
+  { id: "g58", image: g_wa_011048, title: "DOLI — 15",    category: "DOLI" },
+  { id: "g59", image: g_wa_011051, title: "DOLI — 16",    category: "DOLI" },
 ];
 
 function Arrow({ diagonal = false }: { diagonal?: boolean }) {
@@ -277,6 +311,18 @@ export default function App() {
             </a>
           ))}
         </nav>
+        <div className="mobile-menu-footer">
+          <div className="mobile-menu-phones">
+            <a href="tel:+221787372152">🇸🇳 +221 78 737 21 52</a>
+            <a href="tel:+212681108027">🇲🇦 +212 681 108 027</a>
+          </div>
+          <div className="mobile-menu-socials">
+            <a href="https://www.instagram.com/p/DcUKkD8ovlf/?igsi=aGQ3Z2o5NGtrNnA5" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.tiktok.com/@cheikhart7?_r=1&_t=ZS-9BWLpw5X9uO" target="_blank" rel="noopener noreferrer">TikTok</a>
+            <a href="https://www.threads.net/@artcheikh19" target="_blank" rel="noopener noreferrer">Threads</a>
+            <a href="https://www.facebook.com/profile.php?id=61593495151632&mibextid=rS40aB7S9Ucbxw6v" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </div>
+        </div>
       </div>
 
       <section
@@ -496,7 +542,7 @@ export default function App() {
               L'exposition <em>permanente.</em>
             </h2>
             <p>
-              43 créations, portraits et instants d'atelier. Cliquez sur une image pour
+              {galleryItems.length} créations, portraits, instants d'atelier et la collection Doli. Cliquez sur une image pour
               l'admirer en plein écran.
             </p>
           </div>
@@ -640,16 +686,20 @@ export default function App() {
               <em>Cheikh Art.</em>
             </h2>
           </div>
-          <a href="https://instagram.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/p/DcUKkD8ovlf/?igsi=aGQ3Z2o5NGtrNnA5"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Suivre sur Instagram <Arrow diagonal />
           </a>
         </div>
         <div className="journal-grid">
           {looks.slice(1, 5).map((look, index) => (
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/p/DcUKkD8ovlf/?igsi=aGQ3Z2o5NGtrNnA5"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               key={look.title}
               className={`journal-item item-${index + 1}`}
             >
@@ -661,7 +711,7 @@ export default function App() {
           ))}
         </div>
         <p className="placeholder center">
-          Liens sociaux et publications à remplacer par les comptes officiels de Cheikh Art.
+          Suivez toutes nos actualités et créations exclusives sur Instagram, TikTok, Threads et Facebook.
         </p>
       </section>
 
@@ -678,19 +728,23 @@ export default function App() {
           </p>
           <div className="contact-details">
             <div>
-              <small>Atelier</small>
+              <small>Atelier & Showroom</small>
               <span>
-                Adresse à renseigner
-                <br />
                 Dakar, Sénégal
+                <br />
+                Sur rendez-vous privé
               </span>
             </div>
             <div>
-              <small>Contact</small>
+              <small>Téléphone & WhatsApp</small>
               <span>
-                Téléphone à renseigner
+                <a href="tel:+221787372152" style={{ color: "inherit", textDecoration: "none" }}>
+                  +221 78 737 21 52
+                </a>
                 <br />
-                E-mail à renseigner
+                <a href="tel:+212681108027" style={{ color: "inherit", textDecoration: "none" }}>
+                  +212 681 108 027
+                </a>
               </span>
             </div>
           </div>
@@ -744,18 +798,96 @@ export default function App() {
 
       <footer>
         <div className="footer-top">
-          <span>CHEIKH ART</span>
-          <p>
-            Des racines africaines.
-            <br />
-            Une vision sans frontières.
-          </p>
+          <div className="footer-brand">
+            <span className="footer-title">CHEIKH ART</span>
+            <p>
+              Des racines africaines.
+              <br />
+              Une vision sans frontières.
+            </p>
+          </div>
+
+          <div className="footer-content-grid">
+            <div className="footer-block">
+              <span className="footer-heading">Coordonnées & Téléphone</span>
+              <div className="footer-contact-links">
+                <a href="tel:+221787372152" className="footer-link-item">
+                  <span className="country-badge">SN</span>
+                  <span>+221 78 737 21 52</span>
+                </a>
+                <a href="tel:+212681108027" className="footer-link-item">
+                  <span className="country-badge">MA</span>
+                  <span>+212 681 108 027</span>
+                </a>
+              </div>
+              <p className="footer-note">Dakar · Séances privées sur rendez-vous</p>
+            </div>
+
+            <div className="footer-block">
+              <span className="footer-heading">Réseaux Sociaux</span>
+              <div className="footer-social-grid">
+                <a
+                  href="https://www.instagram.com/p/DcUKkD8ovlf/?igsi=aGQ3Z2o5NGtrNnA5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-social-btn"
+                  title="Instagram Cheikh Art"
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                  </svg>
+                  <span>Instagram</span>
+                </a>
+                <a
+                  href="https://www.tiktok.com/@cheikhart7?_r=1&_t=ZS-9BWLpw5X9uO"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-social-btn"
+                  title="TikTok @cheikhart7"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .58.04.86.12V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.49 6.27 6.27 0 0 0 1.88-4.49V8.71a8.21 8.21 0 0 0 4.89 1.6v-3.62h-1z"/>
+                  </svg>
+                  <span>TikTok</span>
+                </a>
+                <a
+                  href="https://www.threads.net/@artcheikh19"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-social-btn"
+                  title="Threads @artcheikh19"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12.186 24C5.467 24 0 18.533 0 11.814 0 5.095 5.467 0 12.186 0c6.643 0 11.967 5.176 12.186 11.814h-2.584C21.57 6.55 17.397 2.477 12.186 2.477 7.03 2.477 2.84 6.666 2.84 11.814c0 5.148 4.19 9.337 9.346 9.337 4.544 0 8.358-3.13 9.208-7.395h-5.064c-2.312 0-4.193-1.881-4.193-4.193 0-2.312 1.881-4.193 4.193-4.193 2.312 0 4.193 1.881 4.193 4.193v.852c0 6.008-4.87 10.878-10.878 10.878h-.458v2.482h.458c7.378 0 13.36-5.982 13.36-13.36v-.852C23.006 4.316 17.684 0 12.186 0zm4.193 11.814c0 .945-.768 1.713-1.713 1.713s-1.713-.768-1.713-1.713.768-1.713 1.713-1.713 1.713.768 1.713 1.713z"/>
+                  </svg>
+                  <span>Threads</span>
+                </a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61593495151632&mibextid=rS40aB7S9Ucbxw6v"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-social-btn"
+                  title="Facebook Cheikh Art"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                  </svg>
+                  <span>Facebook</span>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} Cheikh Art</span>
+          <span>© {new Date().getFullYear()} Cheikh Art — Tous droits réservés</span>
           <nav>
             <a href="#accueil">Accueil</a>
             <a href="#collections">Collections</a>
+            <a href="#lookbook">Lookbook</a>
+            <a href="#galerie">Galerie</a>
             <a href="#contact">Contact</a>
           </nav>
           <a href="#accueil">Retour en haut ↑</a>
